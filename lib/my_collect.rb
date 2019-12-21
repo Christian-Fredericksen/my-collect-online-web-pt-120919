@@ -4,8 +4,8 @@ def my_collect(collection)
     yield(collection[i])
     capital_collection << collection[i]
     i += 1 
+    capital_collection
   end
-  capital_collection
 end
 
 
