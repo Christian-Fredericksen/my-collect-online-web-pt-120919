@@ -3,6 +3,7 @@ def my_collect(collection)
   while i > collection.length
     yield(collection[i])
     i += 1 
+    capital_collection << collection[i]
   end
   collection
 end
