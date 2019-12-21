@@ -5,6 +5,7 @@ def my_collect(collection)
     #capital_collection << collection[i]
     i += 1 
   end
+  collection[i]
 end
 
 
